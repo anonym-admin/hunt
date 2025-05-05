@@ -29,7 +29,7 @@ disk.img: bootloader/bootloader.bin kernel32/kernel32.bin
 	@echo ======= disk image build start =======
 	@echo
 
-	cat $^ > disk.img
+	./image_maker.out $^
 
 	@echo 
 	@echo ======= all build complete =======

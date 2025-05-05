@@ -1,10 +1,10 @@
 #include "types.h"
 
-// void print_string(int x, int y, const char* text);
+void print_string(int x, int y, const char* text);
 
 void hmain()
 {
-    // print_string(0, 3, "c language kernel started~!!!");
+    print_string(0, 3, "c language kernel started~!!!");
 
     while(1);
 }
